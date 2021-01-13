@@ -26,6 +26,7 @@ using namespace std;
 		string getAge();
 		string getGender();
 		virtual string getRole() =0;
+		virtual string getDepartment() = 0;
 	};
 	
 	class Students : public School {
@@ -34,7 +35,16 @@ using namespace std;
 	public:
 		Students(string name, string sur_name, string phone_number, string gender, string age);
 		 string getRole() override;
-
+		 string getDepartment() override;
 	};
-
+	
+	class Professors : public School {
+	private:
+		string role;
+		string department;
+	public:
+		Professors(string name, string sur_name, string phone_number, string gender, string age,string department);
+		string getRole() override;
+		string getDepartment() override;
+	};
 

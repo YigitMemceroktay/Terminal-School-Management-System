@@ -39,5 +39,18 @@
     string Students::getRole() {
 		return role;
 	}
-	
+	Professors::Professors(string name, string sur_name, string phone_number, string gender, string age, string department) :
+		School(name, sur_name, phone_number, gender, age) {
+		this->department = department;
+		role = "Professor";
+	 }
+	string Professors::getRole() {
+		return this->role;
+ }
+	string Professors::getDepartment() {
+		return this->department;
+	}
+	string Students::getDepartment() {
+		return "NaN";
+	}
 	

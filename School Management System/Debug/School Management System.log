@@ -1,4 +1,11 @@
-﻿  Source.cpp
-C:\Users\ggyig\source\repos\School Management System\School Management System\src\Source.cpp(159,20): warning C4018: '<': signed/unsigned mismatch
-C:\Users\ggyig\source\repos\School Management System\School Management System\src\Source.cpp(174,11): warning C4018: '<': signed/unsigned mismatch
+﻿  School.cpp
+  Source.cpp
+C:\Users\ggyig\source\repos\School Management System\School Management System\src\Source.cpp(140,19): warning C4018: '<': signed/unsigned mismatch
+C:\Users\ggyig\source\repos\School Management System\School Management System\src\Source.cpp(150,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\ggyig\source\repos\School Management System\School Management System\src\Source.cpp(156,17): warning C4018: '<': signed/unsigned mismatch
+C:\Users\ggyig\source\repos\School Management System\School Management System\src\Source.cpp(160,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\ggyig\source\repos\School Management System\School Management System\src\Source.cpp(165,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\ggyig\source\repos\School Management System\School Management System\src\Source.cpp(170,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\ggyig\source\repos\School Management System\School Management System\src\Source.cpp(183,11): warning C4018: '<': signed/unsigned mismatch
+  Generating Code...
   School Management System.vcxproj -> C:\Users\ggyig\source\repos\School Management System\Debug\School Management System.exe
